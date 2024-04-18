@@ -1,0 +1,5 @@
+# Create .gitignore file
+New-Item .gitignore -type file
+
+# Add patterns to ignore specific files
+Add-Content .gitignore ".terraform/providers/registry.terraform.io/hashicorp/aws/*/terraform-provider-aws_*.exe"
